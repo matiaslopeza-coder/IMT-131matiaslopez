@@ -1,0 +1,36 @@
+resultado 1 :
+comando grep "error" log.txt
+error: memoria llena
+error: archivo no encontrado
+resultado 2
+comando grep "info" log.txt 
+info: proceso iniciado
+info: proceso terminado
+resultado 3
+comando wc -l nombres.txt
+6 nombres.txt
+resultado 4
+comando grep "ana" nombres.txt | wc -l
+2
+resultado 5
+comando sort nombres.txt
+ana
+ana
+juan
+juan
+maria
+pedro
+resultado 6
+comando find -type f -name "*.txt"
+./datos/log.txt
+./datos/nombres.txt
+./datos/resultado_practica4.txt
+resultado 7
+comando find -type f -name "*.txt" | wc -l
+3
+resultado 8
+
+comado grep "error" log.txt | sort 
+
+error: archivo no encontrado
+error: memoria llena
