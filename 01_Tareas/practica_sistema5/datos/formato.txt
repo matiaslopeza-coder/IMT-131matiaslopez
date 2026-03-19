@@ -1,0 +1,4 @@
+backup
+datos
+reportes
+scripts

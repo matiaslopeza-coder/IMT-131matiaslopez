@@ -1,0 +1,50 @@
+  399  echo "error: contrase~na incorrecta ana" >> accesos.log
+  400  cd ..
+  401  ls -la
+  402  cd datos/
+  403  cd ..
+  404  ls > datos/formato.txt
+  405  ls -la datos/
+  406  find -name "*.txt"
+  407* 
+  408  find -name "*.txt" | wc 
+  409  grep error accesos.log
+  410* cd datos/\
+  411* grep error accesos.log \
+  412* grep error accesos.log | wc\
+  413* grep error accesos.log | wc accesos.log \
+  414* grep error accesos.log 
+  415  grep error accesos.log | wc
+  416  grep error accesos.log | wc accesos.log 
+  417  sort usuarios.txt 
+  418  grep error accesos.log | sort
+  419  nano accesos.log 
+  420  grep error accesos.log | sort
+  421  cd ..
+  422  wc -l datos/usuarios.txt 
+  423  datos 
+  424  wc -l datos/usuarios.txt >> reportes/reporte_sistemas.txt
+  425  cd reportes/
+  426  ls -la
+  427  cat reporte_sistemas.txt 
+  428  cd ..
+  429  grep error accesos.log datos/
+  430  cd datos/
+  431  grep error accesos.log datos/
+  432  grep error accesos.log datos | wc
+  433  grep error accesos.log datos | wc -w
+  434  cd ..
+  435  grep error accesos.log datos | wc -l
+  436  grep error accesos.log | wc -l
+  437  cd ..
+  438  grep error accesos.log | wc -l datos/ >> reportes/reporte_sistemas.txt 
+  439  sort datos/usuarios.txt >> reportes/reporte_sistemas.txt 
+  440  cat reportes/reporte_sistemas.txt 
+  441  cd scripts/
+  442  touch analisis.sh
+  443  nano analisis.sh 
+  444  ./analisis.sh
+  445  chmod 777 analisis.sh 
+  446  ./analisis.sh 
+  447  cd ..
+  448  history 50 >> comandos_practica.txt 
